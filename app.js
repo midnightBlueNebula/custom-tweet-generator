@@ -23,7 +23,7 @@ button.addEventListener("click", (event)=>{
     var getCanvas = canvas;
     const link = document.createElement('a');
     link.download = new Date();
-    link.href = getCanvas.toDataURL("image/png")
+    link.href = getCanvas.toDataURL("image/jpeg") //link.href = getCanvas.toDataURL("image/png") for better quality
   link.click();
   });         
 }) 
