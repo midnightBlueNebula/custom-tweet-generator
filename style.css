@@ -1,53 +1,57 @@
 #container{
-  height:500px;
+  height:590px;
   width:500px;
   border:1px solid black;
   position:relative;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
   background-color: rgb(8, 9, 33);
   color: white;
 }
 
+#profile-div{
+    margin: 5px;
+    display: inline-block;
+}
+
 #profile-img-div{
-  height: 80px;
-  width: 80px;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
   border: 1px solid black;
   border-radius: 50%;
 }
 
 #user-picture{
-  height: 80px;
-  width: 80px;
+  height: 50px;
+  width: 50px;
   border: 1px solid black;
   border-radius: 50%;
 }
 
-#user-info-and-content{
-  margin-left: 5px;
-  flex-basis:80%;
+#user-name-handle{
+  margin: 10px;
+  display: inline-block;
 }
 
 #user-name{
-  display: inline-block;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 #user-handle{
-  display: inline-block;
   opacity: 0.5;
+  font-size: 14px;
 }
 
 #user-text{
+  margin: 10px;
   word-break: break-all;
   align-self: start;
+  font-size: 22px;
 }
 
 #user-media{
-  width: 400px;
-  height: 300px;
-  margin: auto;
+  width: 490px;
+  height: 380px;
+  margin-left: 5px;
   margin-top: 10px;
   border-radius: 10px;
 }
@@ -56,7 +60,7 @@
   width: 250px;
   height: 400px;
   position: relative;
-  top: -501px;
+  top: -591px;
   left: 550px;
   border: 1px solid lightblue;
 }
